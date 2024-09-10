@@ -1,0 +1,8 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.4.1"
+  name = "sample_test_endpoint_for_actions"
+  org = "thamara"
+  version = "0.1.0"
