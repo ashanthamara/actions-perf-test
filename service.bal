@@ -71,6 +71,10 @@ service / on new http:Listener(8091) {
             ]
         };
 
+        // Sleep for 1 second
+        runtime:sleep(1);
+        log:printInfo("Execution resumed after 1 second.");
+
         http:Response resp = new;
         resp.statusCode = 200;
         resp.setJsonPayload(respBody.toJson());
